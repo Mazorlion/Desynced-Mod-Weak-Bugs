@@ -1,0 +1,19 @@
+{
+    "id": "WeakBugs",
+    "name": "Weak Bugs",
+    "version_name": "0.0.2",
+    "version_code": 2,
+    "author": "Maz",
+    "homepage": "",
+    "description": "Sets all bugs and bug buildings to one health and zero damage. Note: Only applies to units spawned after the mod is loaded.",
+    "packages": {
+        "Addon": {
+            "name": "WeakBugs",
+            "entry": "weak_bugs.lua",
+            "dependencies": [
+                "Main/Data"
+            ],
+            "type": "Addon"
+        }
+    }
+}
