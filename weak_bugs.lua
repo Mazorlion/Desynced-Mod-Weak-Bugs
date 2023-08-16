@@ -1,12 +1,5 @@
 local package = ...
 
--- package.includes = {
---     "main/data/components.lua",
---     "main/data/data.lua",
---     "main/data/frames.lua"
--- }
-
--- 4183041537
 -- called when mod is initializing
 function package:init()
     for key, frame in pairs(data.frames) do
