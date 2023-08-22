@@ -6,6 +6,7 @@
     "author": "Maz",
     "homepage": "",
     "description": "Sets all bugs and bug buildings to one health and zero damage. Note: Only applies to units spawned after the mod is loaded.",
+    "options": "options.lua",
     "packages": {
         "Addon": {
             "name": "WeakBugs",
